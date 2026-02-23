@@ -128,11 +128,11 @@
             player.spawnX = 45; player.spawnY = 540;
         },
         5: () => { // Spike Pattern
-            for(let i=0; i<12; i++) addBlock(i*45, 580, 45, 45, 1);
-            addBlock(225, 580, 45, 45, 4);
-            addBlock(360, 580, 45, 45, 4);
-            addBlock(495, 580, 45, 45, 4);
-            addBlock(675, 490, 90, 45, 11);
+            for(let i=0; i<10; i++) addBlock(i*45, 580, 45, 45, 1);
+            addBlock(225, 535, 45, 45, 4);
+            addBlock(360, 535, 45, 45, 4);
+            addBlock(495, 535, 45, 45, 4);
+            addBlock(585, 490, 90, 45, 11);
             player.spawnX = 45; player.spawnY = 540;
         },
         6: () => { // Double Bounce
@@ -287,12 +287,11 @@
         
         // Advanced (21-30) - Expert level design
         21: () => { // Extended Corridor
-            for(let i=0; i<25; i++) addBlock(i*45, 580, 45, 45, 1);
-            addBlock(180, 580, 45, 45, 4);
-            addBlock(315, 580, 45, 45, 4);
-            addBlock(450, 580, 45, 45, 4);
-            addBlock(585, 580, 45, 45, 4);
-            addBlock(720, 580, 45, 45, 4);
+            for(let i=0; i<20; i++) addBlock(i*45, 580, 45, 45, 1);
+            addBlock(180, 535, 45, 45, 4);
+            addBlock(360, 535, 45, 45, 4);
+            addBlock(540, 535, 45, 45, 4);
+            addBlock(720, 535, 45, 45, 4);
             addBlock(900, 490, 90, 45, 11);
             player.spawnX = 45; player.spawnY = 540;
         },
