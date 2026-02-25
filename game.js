@@ -1198,7 +1198,7 @@
         ctx.fillText('⚙', CANVAS_WIDTH - 35, 40);
         
         // Level grid
-        var cols = 5, rows = 10, cellW = CANVAS_WIDTH / cols, cellH = 42, startY = 100, gap = 3;
+        var cols = 5, rows = 10, cellW = CANVAS_WIDTH / cols, cellH = 42, startY = 130, gap = 3;
         for (var c = 0; c < cols; c++) {
             for (var r = 0; r < rows; r++) {
                 var level = c * rows + r + 1;
